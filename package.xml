@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>turtlebot3_goal_navigator</name>
+  <version>0.0.1</version>
+  <description>Move TurtleBot3 through waypoints in Gazebo using proportional control</description>
+  <maintainer email="bhoomikakj20@gmail.com.com">bhoomikakj20</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>turtlebot3_gazebo</depend>
+</package>
