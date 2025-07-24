@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch" />
+  <node pkg="turtlebot3_goal_navigator" type="goal_nav_basic.py" name="goal_nav_basic" output="screen" />
+</launch>
